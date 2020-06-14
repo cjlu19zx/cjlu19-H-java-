@@ -1,0 +1,13 @@
+（三）定义一个类Student，其私有instance fields有：学号String、姓名String、年龄int，其方法有：有参和无参constructor，accessor方法；写一个主类HashMapTest，定义一个无参constructor，在这个constructor中实现以下功能，最后在main方法中生成一个HashMapTest对象来调用该constructor。
+HashMap实验：
+1. 生成一个HashMap对象；
+2. 添加以下学生（注意，HashMap是Key / Value对，Key 是学号，Value是Student）： 
+学号：19H002，姓名：孙悟空，年龄2000
+学号：19H001，姓名：唐僧，年龄40
+学号：19H003，姓名：猪八戒，年龄1000
+学号：19H004，姓名：沙僧，年龄900
+学号：19H005，姓名：小龙马，年龄800
+3. 根据key（学号）查找学号为17H003的学生，输出其学号、姓名、年龄信息；
+4. 输出所有学生的信息；
+5. 移除小龙马；
+6. 使用toArray()方法把HashMap中的Value变成一个数组，然后输出该数组的元素。 【提示：在类Student增加一个方法toString()， 该方法返回一个字符串，字符串内容：学号，姓名，年龄】
