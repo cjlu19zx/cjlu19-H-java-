@@ -1,4 +1,3 @@
-package 综合实验2;
 
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
@@ -59,7 +58,7 @@ public class test extends JFrame {
 		mnNewMenu.add(mntmNewMenuItem);
 
 		JTextPane textPane = new JTextPane();
-		textPane.setFont(new Font("宋体", Font.PLAIN, 23));
+		textPane.setFont(new Font("脣脦脤氓", Font.PLAIN, 23));
 		textPane.setForeground(new Color(255, 255, 255));
 		textPane.setText("\u7ECD\u5174\u5E02\u5143\u57F9\u4E2D\u5B66\u662F\u4EE5\u8FD1\u4EE3\u8457\u540D\u7684\u6C11\u4E3B\u9769\u547D\u5BB6\u3001\u6559\u80B2\u5BB6\u3001\u79D1\u5B66\u5BB6\u8521\u5143\u57F9\u5148\u751F\u540D\u5B57\u547D\u540D\u7684\uFF0C\u521B\u5EFA\u4E8E1991\u5E74\u30022002\u5E74\uFF0C\u5143\u57F9\u4E2D\u5B66\u4F5C\u4E3A\u7ECD\u5174\u5E02\u552F\u4E00\u7684\u4E00\u6240\u5165\u9009\u201C\u5168\u56FD\u540D\u6821600\u5BB6\u201D\u7684\u521D\u7EA7\u4E2D\u5B66\u3002");
 		textPane.setBackground(new Color(0, 0, 0));
@@ -69,7 +68,7 @@ public class test extends JFrame {
 		textPane.setVisible(false);
 
 		JLabel lblNewLabel = new JLabel("\u5143\u57F9\u4E2D\u5B66\u7B80\u4ECB");
-		lblNewLabel.setFont(new Font("宋体", Font.PLAIN, 18));
+		lblNewLabel.setFont(new Font("脣脦脤氓", Font.PLAIN, 18));
 		lblNewLabel.setBounds(14, 97, 112, 18);
 		getContentPane().add(lblNewLabel);
 		lblNewLabel.setVisible(false);
