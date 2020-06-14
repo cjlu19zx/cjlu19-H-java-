@@ -1,4 +1,4 @@
-package 综合实验;
+package 缁煎悎瀹為獙;
 
 import java.awt.BorderLayout;
 import java.math.*;
@@ -111,11 +111,11 @@ public class Work1 extends JFrame {
 		
 		JLabel lblNewLabel = new JLabel("                   \u4E00\u4E2A6*6\u7684\u968F\u673A\u77E9\u9635\u5982\u4E0B");
 		lblNewLabel.setBounds(45, 5, 514, 21);
-		lblNewLabel.setFont(new Font("宋体", Font.PLAIN, 18));
+		lblNewLabel.setFont(new Font("瀹嬩綋", Font.PLAIN, 18));
 		contentPane.add(lblNewLabel);
 	
 
-		JLabel lblNewLabel_1 = new JLabel("按行计算");
+		JLabel lblNewLabel_1 = new JLabel("鎸夎璁＄畻");
 		lblNewLabel_1.setBounds(94, 303, 72, 18);
 		contentPane.add(lblNewLabel_1);
 		
@@ -127,7 +127,7 @@ public class Work1 extends JFrame {
 		contentPane.add(comboBox);
 		comboBox.addItemListener(new ItemListener() {
             public void itemStateChanged(ItemEvent arg0) {
-                lblNewLabel_1.setText(arg0.getItem().toString() + "计算");
+                lblNewLabel_1.setText(arg0.getItem().toString() + "璁＄畻");
             }
 		});		
 		
@@ -158,7 +158,7 @@ public class Work1 extends JFrame {
 		contentPane.add(minNumber);
 		minNumber.setColumns(10);
 		
-		// 修改
+		// 淇敼
 		JButton btnNewButton = new JButton("\u8BA1\u7B97");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -166,7 +166,7 @@ public class Work1 extends JFrame {
 				int num = Integer.parseInt(str);
 				int mx = 0, mn = 1000;
 				int sum = 0;
-				if(comboBox.getSelectedItem().equals("按行")) {
+				if(comboBox.getSelectedItem().equals("鎸夎")) {
 					for(int i = 1; i <= 6; i++) {
 						mx = Math.max(mx, a[i][num]);
 						mn = Math.min(mn, a[i][num]);
@@ -187,7 +187,7 @@ public class Work1 extends JFrame {
 		btnNewButton.setBackground(SystemColor.inactiveCaption);
 		btnNewButton.setBounds(269, 337, 113, 38);
 		contentPane.add(btnNewButton);
-		// 修改
+		// 淇敼
 		
 		textField_3 = new JTextField();
 		textField_3.setEditable(false);
