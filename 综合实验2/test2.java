@@ -1,4 +1,3 @@
-package 综合实验2;
 
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
@@ -41,7 +40,7 @@ public class test2 extends JDialog {
 		contentPanel.setLayout(null);
 		{
 			JLabel lblNewLabel = new JLabel("19\u8BA1\u7B97\u673AH1\u73ED\uFF0C\u5B66\u53F733\uFF0C\u5F20\u9704");
-			lblNewLabel.setFont(new Font("宋体", Font.PLAIN, 20));
+			lblNewLabel.setFont(new Font("脣脦脤氓", Font.PLAIN, 20));
 			lblNewLabel.setBounds(40, 13, 292, 62);
 			contentPanel.add(lblNewLabel);
 		}
