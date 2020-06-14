@@ -1,0 +1,1 @@
+（一）定义一个泛型类BlackBox，该类含有：三个私有的instance fields；有参、无参constructor各一个；各属性的mutator和accessor 方法。在该类中定义一个main方法，在main方法中生成2个或以上的不同类型的实例对象，输出各实例对象的值。

@@ -1,0 +1,11 @@
+（二）写一个类CollectionTest，定义一个无参constructor，在这个constructor中实现以下功能，最后在该类的main方法中生成一个CollectionTest对象来调用该constructor。
+
+（1）ArrayList实验：
+A. 生成一个ArrayList对象；
+B. 调用add方法来添加一系列姓名："James", "Tom", "Steven", "Alice", "Bob", “Jerry” 等；
+C. 使用for循环输出ArrayList中所有的姓名；
+D. 使用迭代器Iterator输出ArrayList中所有的姓名，并且当姓名是Tom时，删除Tom：
+E. 调用sort方法进行排序
+F. 使用for each循环输出ArrayList中所有的姓名，看看Tom是否被删除了。
+（2）LinkedList实验：
+在上面的constructor中，继续添加代码，用LinkedList重做上面实验内容。
