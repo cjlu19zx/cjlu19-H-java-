@@ -1,0 +1,9 @@
+2. 接口及其实现
+（1）定义一个接口ShapeX，该接口有2个方法：求面积area和求周长perimeter，返回值均为double类型，均无参数；
+（2）定义一个长方形类Rectangle实现ShapeX接口；
+（3）定义一个椭圆类Oval实现ShapeX接口；
+（4）定义一个三角形类Triangle实现ShapeX接口；
+（5）定义一个主类ShapeXTest，在主类的main方法中，用new生成不同的对象，输出各个对象的周长和面积（每个类至少生成一个对象）。
+3. 在上面的基础上添加：
+（1）添加Rectangle类的clone()方法；【参考教材6.2.3上的代码】
+（2）在main方法中，用Rectangle生成一个original对象，然后用original调用clone()方法赋值给一个新的对象变量copy，利用copy变量去输出周长和面积，看看是否和original对象输出的周长和面积一样. 
