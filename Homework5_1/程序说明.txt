@@ -1,0 +1,18 @@
+1. 编写程序，创建类的对象，分别设置圆的半径、圆柱体的底面半径和高，计算并分别显示圆半径、圆面积、圆周长，圆柱体的底面半径、高、表面积和体积。
+      实现思路：
+      I ) 编写一个圆类Circle，该类拥有：
+      a) 一个成员变量，radius (私有，double型);  //存放圆的半径
+      b) 两个构造方法(无参、有参);
+      c) 4个成员方法
+        double getRadius() //获取圆的半径
+          double getArea() //获取圆的面积
+          double getPerimeter() //获取圆的周长
+          void show()  //将圆的半径、周长、面积输出到屏幕
+      II ) 编写一个圆柱体类Cylinder，它继承于上面的Circle类。还拥有：
+      a) 一个成员变量，height (私有，double型); //圆柱体的高;
+      b) 构造方法
+      c) 成员方法
+double getHeight() //获取圆柱体的高
+double getArea()  //获得圆柱体的表面积 
+double getVolume() //获取圆柱体的体积
+void show() //将圆柱体的表面积和体积输出到屏幕
