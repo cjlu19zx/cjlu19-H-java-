@@ -24,7 +24,26 @@ import java.awt.event.ActionEvent;
 import java.awt.*;
 import java.awt.event.*;
 
-// 程序是由windows builder构成，代码重复度比较高
+/**
+ * 
+ * @author zx
+ * 程序主体思想：
+ * 通过Windows Builder构建了最基本的几个要求的东西：
+ * 用标签输出标题，36个不可更改的TextField设置为随机数。
+ * 在随机数的过程中先用数组设置随机数，再挨个赋值
+ * (因为用Windows Builder代码重复率比较高，
+ * 其实可以把JTextField这部分写成数组形式更容易表达，
+ * 而且后期维护率也更加容易.这一点在以后的过程中需要改进)
+ * 
+ * 在点击计算上设置监听器，可以实现一下操作：计算最大值，最小值与总和，
+ * 并显示在相对应的不可更改的TextField上
+ * 
+ * 唯一美中不足的就是，在输入列和行的地方，应该也写一个异常
+ * 当输入的数 大于6或者小于 1，判断为不合法，应当弹出对话框提醒
+ * 在上交的报告过程中，会把大量的重复内容屏蔽，
+ * 如果老师希望查看源码，我会在实验报告上写上地址
+ * 
+ */
 
 public class Work1 extends JFrame {
 
