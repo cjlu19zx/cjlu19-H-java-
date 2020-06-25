@@ -1,4 +1,3 @@
-package 综合实验2;
 
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
