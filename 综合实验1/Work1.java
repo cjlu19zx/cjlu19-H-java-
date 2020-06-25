@@ -236,5 +236,6 @@ public class Work1 extends JFrame {
 		caclsum.setBounds(440, 500, 50, 24);
 		contentPane.add(caclsum);
 		caclsum.setColumns(10);
+		
 	}
 }
